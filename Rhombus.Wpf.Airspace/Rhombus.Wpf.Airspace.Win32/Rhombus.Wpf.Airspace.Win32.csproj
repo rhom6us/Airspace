@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--<TargetFramework>netstandard2.0</TargetFramework>-->
+    <!--<TargetFramework>net471</TargetFramework>-->
+    <TargetFrameworks>net40;net471;netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/rhom6us/Airspace</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rhom6us/Airspace.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>WPF Airspace helper libs that I found somewhere, adopted to my own personal [opinionated] code style.</Description>
+    <Copyright>2018 Butler Software LLC</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jetbrains.annotations" Version="2018.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
